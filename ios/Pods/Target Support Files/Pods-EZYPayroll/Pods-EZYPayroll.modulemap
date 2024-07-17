@@ -1,0 +1,6 @@
+module Pods_EZYPayroll {
+  umbrella header "Pods-EZYPayroll-umbrella.h"
+
+  export *
+  module * { export * }
+}

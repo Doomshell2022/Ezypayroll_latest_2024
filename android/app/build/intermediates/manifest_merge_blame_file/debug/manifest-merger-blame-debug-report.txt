@@ -1,0 +1,586 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.doomshell.ezypayroll"
+4    android:versionCode="27"
+5    android:versionName="2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:8:5-65
+12-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:8:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:10:5-81
+13-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:5:5-67
+14-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:6:5-81
+15-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:6:22-78
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:7:5-66
+16-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:7:22-63
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:9:5-80
+17-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:9:22-77
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:11:5-79
+18-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.99.0] /Users/dheerndra/.gradle/caches/transforms-3/4e8edfd7f2ec0a91c7a97734109897d6/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.99.0] /Users/dheerndra/.gradle/caches/transforms-3/4e8edfd7f2ec0a91c7a97734109897d6/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:react-native-community_netinfo] /Users/dheerndra/Documents/EZYPayroll/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+20-->[:react-native-community_netinfo] /Users/dheerndra/Documents/EZYPayroll/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+21
+22    <uses-feature
+22-->[:react-native-camera] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+23        android:name="android.hardware.camera"
+23-->[:react-native-camera] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:9-47
+24        android:required="false" />
+24-->[:react-native-camera] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-33
+25    <uses-feature
+25-->[:react-native-camera] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+26        android:name="android.hardware.camera.autofocus"
+26-->[:react-native-camera] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:15:9-57
+27        android:required="false" />
+27-->[:react-native-camera] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:16:9-33
+28
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[:react-native-firebase] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-firebase/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+29-->[:react-native-firebase] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-firebase/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+30    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+30-->[:react-native-get-location] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+30-->[:react-native-get-location] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+31-->[com.google.firebase:firebase-iid:21.1.0] /Users/dheerndra/.gradle/caches/transforms-3/607736da8f96d257206efab8345f5341/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+31-->[com.google.firebase:firebase-iid:21.1.0] /Users/dheerndra/.gradle/caches/transforms-3/607736da8f96d257206efab8345f5341/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+32    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+33    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+34    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+35    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+36    <!-- for Samsung -->
+37    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+38    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+39    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+40    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+41    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+42    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+43    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+44    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+45    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+46    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+47    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+48    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+49    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+50    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+51    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+52    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/dheerndra/.gradle/caches/transforms-3/55b1f62db2a3d4f84479c2d697ff6147/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+53    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+53-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+53-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+54
+55    <application
+55-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:13:5-55:19
+56        android:name="com.doomshell.ezypayroll.MainApplication"
+56-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:14:7-38
+57        android:allowBackup="false"
+57-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:18:7-34
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.5.0] /Users/dheerndra/.gradle/caches/transforms-3/3398d8df9e2ad8647eb8585b39a42d27/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+59        android:debuggable="true"
+60        android:icon="@mipmap/ic_launcher"
+60-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:16:7-41
+61        android:label="@string/app_name"
+61-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:15:7-39
+62        android:requestLegacyExternalStorage="true"
+62-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:22:9-52
+63        android:roundIcon="@mipmap/ic_launcher_round"
+63-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:17:7-52
+64        android:screenOrientation="portrait"
+64-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:21:9-45
+65        android:theme="@style/AppTheme"
+65-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:19:7-38
+66        android:usesCleartextTraffic="true" >
+66-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:20:9-44
+67        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+67-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:38:8-85
+67-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:38:18-82
+68        <activity
+68-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:26:9-37:18
+69            android:name="com.doomshell.ezypayroll.MainActivity"
+69-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:28:13-41
+70            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+70-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:30:13-90
+71            android:exported="true"
+71-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:27:13-36
+72            android:label="@string/app_name"
+72-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:29:13-45
+73            android:launchMode="singleTop"
+73-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:31:13-43
+74            android:windowSoftInputMode="adjustResize" >
+74-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:32:13-55
+75            <intent-filter>
+75-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:33:9-36:25
+76                <action android:name="android.intent.action.MAIN" />
+76-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:34:13-65
+76-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:34:21-62
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:35:13-73
+78-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:35:23-70
+79            </intent-filter>
+80        </activity>
+81
+82        <service
+82-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:40:9-44:19
+83            android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService"
+83-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:40:18-91
+84            android:exported="true" >
+84-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:40:92-115
+85            <intent-filter>
+85-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:41:13-43:29
+86                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+86-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:42:17-78
+86-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:42:25-75
+87            </intent-filter>
+88        </service>
+89        <service android:name="io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService" />
+89-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:46:9-104
+89-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:46:18-101
+90
+91        <meta-data
+91-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:48:9-50:57
+92            android:name="com.google.firebase.messaging.default_notification_icon"
+92-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:49:13-83
+93            android:resource="@drawable/ic_stat_name" />
+93-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:50:13-54
+94        <meta-data
+94-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:52:9-54:64
+95            android:name="com.google.firebase.messaging.default_notification_color"
+95-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:53:13-84
+96            android:resource="@color/ic_launcher_background" />
+96-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:54:13-61
+97
+98        <service
+98-->[:react-native-firebase] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-firebase/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+99            android:name="com.google.firebase.components.ComponentDiscoveryService"
+99-->[:react-native-firebase] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-firebase/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+100            android:directBootAware="true"
+100-->[com.google.firebase:firebase-common:20.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9504bf1995f7c2fe0f18df94dd0da180/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+101            android:exported="false" >
+101-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+102            <meta-data
+102-->[:react-native-firebase] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-firebase/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+103                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+103-->[:react-native-firebase] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-firebase/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-116
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:react-native-firebase] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-firebase/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+106                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-iid:21.1.0] /Users/dheerndra/.gradle/caches/transforms-3/607736da8f96d257206efab8345f5341/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+109                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+109-->[com.google.firebase:firebase-iid:21.1.0] /Users/dheerndra/.gradle/caches/transforms-3/607736da8f96d257206efab8345f5341/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-iid:21.1.0] /Users/dheerndra/.gradle/caches/transforms-3/607736da8f96d257206efab8345f5341/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-crashlytics:18.0.1] /Users/dheerndra/.gradle/caches/transforms-3/1286ca613fa0a6510b61fcf8bb9a626f/transformed/jetified-firebase-crashlytics-18.0.1/AndroidManifest.xml:18:13-20:85
+112                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+112-->[com.google.firebase:firebase-crashlytics:18.0.1] /Users/dheerndra/.gradle/caches/transforms-3/1286ca613fa0a6510b61fcf8bb9a626f/transformed/jetified-firebase-crashlytics-18.0.1/AndroidManifest.xml:19:17-115
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-crashlytics:18.0.1] /Users/dheerndra/.gradle/caches/transforms-3/1286ca613fa0a6510b61fcf8bb9a626f/transformed/jetified-firebase-crashlytics-18.0.1/AndroidManifest.xml:20:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+115                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+115-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9171d04a46038f070e1cfbb3e954074f/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+118                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+118-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9171d04a46038f070e1cfbb3e954074f/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9171d04a46038f070e1cfbb3e954074f/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+120            <meta-data
+120-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9d40ab17e38eef775db286f038d4047c/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+121                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+121-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9d40ab17e38eef775db286f038d4047c/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9d40ab17e38eef775db286f038d4047c/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-installations:17.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7bd9961a418a03d5b8a23eed37867c85/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+124                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+124-->[com.google.firebase:firebase-installations:17.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7bd9961a418a03d5b8a23eed37867c85/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-installations:17.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7bd9961a418a03d5b8a23eed37867c85/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+126        </service>
+127
+128        <provider
+128-->[:react-native-webview] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+129            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+129-->[:react-native-webview] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+130            android:authorities="com.doomshell.ezypayroll.fileprovider"
+130-->[:react-native-webview] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+131            android:exported="false"
+131-->[:react-native-webview] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+132            android:grantUriPermissions="true" >
+132-->[:react-native-webview] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+133            <meta-data
+133-->[:react-native-webview] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+134                android:name="android.support.FILE_PROVIDER_PATHS"
+134-->[:react-native-webview] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+135                android:resource="@xml/file_provider_paths" />
+135-->[:react-native-webview] /Users/dheerndra/Documents/EZYPayroll/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+136        </provider>
+137
+138        <activity
+138-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+139            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+139-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+140            android:excludeFromRecents="true"
+140-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+141            android:exported="true"
+141-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+142            android:launchMode="singleTask"
+142-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+143-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+144            <intent-filter>
+144-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+145                <action android:name="android.intent.action.VIEW" />
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+146
+147                <category android:name="android.intent.category.DEFAULT" />
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+148                <category android:name="android.intent.category.BROWSABLE" />
+148-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+148-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+149
+150                <data
+150-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+151                    android:host="firebase.auth"
+151-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+152                    android:path="/"
+152-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+153                    android:scheme="genericidp" />
+153-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+154            </intent-filter>
+155        </activity>
+156        <activity
+156-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+157            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+157-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+158            android:excludeFromRecents="true"
+158-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+159            android:exported="true"
+159-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+160            android:launchMode="singleTask"
+160-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+161-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+162            <intent-filter>
+162-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+163                <action android:name="android.intent.action.VIEW" />
+163-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+163-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+164
+165                <category android:name="android.intent.category.DEFAULT" />
+165-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+165-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+166                <category android:name="android.intent.category.BROWSABLE" />
+166-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+166-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+167
+168                <data
+168-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+169                    android:host="firebase.auth"
+169-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+170                    android:path="/"
+170-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+171                    android:scheme="recaptcha" />
+171-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+172            </intent-filter>
+173        </activity>
+174
+175        <service
+175-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+176            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+176-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+177            android:enabled="true"
+177-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+178            android:exported="false" >
+178-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+179            <intent-filter>
+179-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+180                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+180-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+180-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+181
+182                <category android:name="android.intent.category.DEFAULT" />
+182-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+182-->[com.google.firebase:firebase-auth:21.0.1] /Users/dheerndra/.gradle/caches/transforms-3/9fe803122af68ffa86aa3390e5554e7a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+183            </intent-filter>
+184        </service>
+185
+186        <activity
+186-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+187            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+187-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+188            android:excludeFromRecents="true"
+188-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+189            android:exported="false"
+189-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+190            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+190-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+191        <!--
+192            Service handling Google Sign-In user revocation. For apps that do not integrate with
+193            Google Sign-In, this service will never be started.
+194        -->
+195        <service
+195-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+196            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+196-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+197            android:exported="true"
+197-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+198            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+198-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+199            android:visibleToInstantApps="true" />
+199-->[com.google.android.gms:play-services-auth:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/a4d6d3f1ffeff32dd3cf739da735c016/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+200        <service
+200-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dheerndra/.gradle/caches/transforms-3/ef65c4907807029ea10f9e29d60a58f7/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+201            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+201-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dheerndra/.gradle/caches/transforms-3/ef65c4907807029ea10f9e29d60a58f7/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+202            android:directBootAware="true"
+202-->[com.google.mlkit:common:17.2.0] /Users/dheerndra/.gradle/caches/transforms-3/bdd68a3ce8176e843d44677bb434a404/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+203            android:exported="false" >
+203-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dheerndra/.gradle/caches/transforms-3/ef65c4907807029ea10f9e29d60a58f7/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+204            <meta-data
+204-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dheerndra/.gradle/caches/transforms-3/ef65c4907807029ea10f9e29d60a58f7/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+205                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+205-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dheerndra/.gradle/caches/transforms-3/ef65c4907807029ea10f9e29d60a58f7/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+206                android:value="com.google.firebase.components.ComponentRegistrar" />
+206-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dheerndra/.gradle/caches/transforms-3/ef65c4907807029ea10f9e29d60a58f7/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+207            <meta-data
+207-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/dheerndra/.gradle/caches/transforms-3/77b0b502eb2abfe124a05bcaa215ed37/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+208                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+208-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/dheerndra/.gradle/caches/transforms-3/77b0b502eb2abfe124a05bcaa215ed37/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/dheerndra/.gradle/caches/transforms-3/77b0b502eb2abfe124a05bcaa215ed37/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+210            <meta-data
+210-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/dheerndra/.gradle/caches/transforms-3/d40a52292c1dd57f36ae4d836a8c767a/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+211                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+211-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/dheerndra/.gradle/caches/transforms-3/d40a52292c1dd57f36ae4d836a8c767a/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/dheerndra/.gradle/caches/transforms-3/d40a52292c1dd57f36ae4d836a8c767a/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+213            <meta-data
+213-->[com.google.mlkit:vision-common:16.5.0] /Users/dheerndra/.gradle/caches/transforms-3/2cf1e2b9c8a55b6eb9612663cd388a95/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+214                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+214-->[com.google.mlkit:vision-common:16.5.0] /Users/dheerndra/.gradle/caches/transforms-3/2cf1e2b9c8a55b6eb9612663cd388a95/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.mlkit:vision-common:16.5.0] /Users/dheerndra/.gradle/caches/transforms-3/2cf1e2b9c8a55b6eb9612663cd388a95/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+216            <meta-data
+216-->[com.google.mlkit:common:17.2.0] /Users/dheerndra/.gradle/caches/transforms-3/bdd68a3ce8176e843d44677bb434a404/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+217                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+217-->[com.google.mlkit:common:17.2.0] /Users/dheerndra/.gradle/caches/transforms-3/bdd68a3ce8176e843d44677bb434a404/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.mlkit:common:17.2.0] /Users/dheerndra/.gradle/caches/transforms-3/bdd68a3ce8176e843d44677bb434a404/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+219        </service>
+220
+221        <provider
+221-->[com.google.mlkit:common:17.2.0] /Users/dheerndra/.gradle/caches/transforms-3/bdd68a3ce8176e843d44677bb434a404/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+222            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+222-->[com.google.mlkit:common:17.2.0] /Users/dheerndra/.gradle/caches/transforms-3/bdd68a3ce8176e843d44677bb434a404/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+223            android:authorities="com.doomshell.ezypayroll.mlkitinitprovider"
+223-->[com.google.mlkit:common:17.2.0] /Users/dheerndra/.gradle/caches/transforms-3/bdd68a3ce8176e843d44677bb434a404/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+224            android:exported="false"
+224-->[com.google.mlkit:common:17.2.0] /Users/dheerndra/.gradle/caches/transforms-3/bdd68a3ce8176e843d44677bb434a404/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+225            android:initOrder="99" />
+225-->[com.google.mlkit:common:17.2.0] /Users/dheerndra/.gradle/caches/transforms-3/bdd68a3ce8176e843d44677bb434a404/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+226
+227        <activity
+227-->[com.google.android.gms:play-services-base:18.0.1] /Users/dheerndra/.gradle/caches/transforms-3/8bf9d983d298327122970b4204181e2f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+228            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+228-->[com.google.android.gms:play-services-base:18.0.1] /Users/dheerndra/.gradle/caches/transforms-3/8bf9d983d298327122970b4204181e2f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+229            android:exported="false"
+229-->[com.google.android.gms:play-services-base:18.0.1] /Users/dheerndra/.gradle/caches/transforms-3/8bf9d983d298327122970b4204181e2f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+230            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+230-->[com.google.android.gms:play-services-base:18.0.1] /Users/dheerndra/.gradle/caches/transforms-3/8bf9d983d298327122970b4204181e2f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+231
+232        <receiver
+232-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+233            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+233-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+234            android:exported="true"
+234-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+235            android:permission="com.google.android.c2dm.permission.SEND" >
+235-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+236            <intent-filter>
+236-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+237                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+237-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+237-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+238            </intent-filter>
+239        </receiver>
+240        <!--
+241             FirebaseMessagingService performs security checks at runtime,
+242             but set to not exported to explicitly avoid allowing another app to call it.
+243        -->
+244        <service
+244-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+245            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+245-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+246            android:directBootAware="true"
+246-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+247            android:exported="false" >
+247-->[com.google.firebase:firebase-messaging:22.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b76b50848e041425eaa6ca68558b64a3/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+248            <intent-filter android:priority="-500" >
+248-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:41:13-43:29
+249                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+249-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:42:17-78
+249-->/Users/dheerndra/Documents/EZYPayroll/android/app/src/main/AndroidManifest.xml:42:25-75
+250            </intent-filter>
+251        </service>
+252        <service
+252-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b62d3d8d6ba9f06665d7a1f3478d48db/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+253            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+253-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b62d3d8d6ba9f06665d7a1f3478d48db/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+254            android:exported="false" >
+254-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b62d3d8d6ba9f06665d7a1f3478d48db/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+255            <meta-data
+255-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b62d3d8d6ba9f06665d7a1f3478d48db/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+256                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+256-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b62d3d8d6ba9f06665d7a1f3478d48db/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+257                android:value="cct" />
+257-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/b62d3d8d6ba9f06665d7a1f3478d48db/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+258        </service>
+259
+260        <provider
+260-->[com.google.firebase:firebase-common:20.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9504bf1995f7c2fe0f18df94dd0da180/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+261            android:name="com.google.firebase.provider.FirebaseInitProvider"
+261-->[com.google.firebase:firebase-common:20.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9504bf1995f7c2fe0f18df94dd0da180/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+262            android:authorities="com.doomshell.ezypayroll.firebaseinitprovider"
+262-->[com.google.firebase:firebase-common:20.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9504bf1995f7c2fe0f18df94dd0da180/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+263            android:directBootAware="true"
+263-->[com.google.firebase:firebase-common:20.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9504bf1995f7c2fe0f18df94dd0da180/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+264            android:exported="false"
+264-->[com.google.firebase:firebase-common:20.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9504bf1995f7c2fe0f18df94dd0da180/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+265            android:initOrder="100" />
+265-->[com.google.firebase:firebase-common:20.0.0] /Users/dheerndra/.gradle/caches/transforms-3/9504bf1995f7c2fe0f18df94dd0da180/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+266
+267        <service
+267-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/301c8b838292838cea15100199032d68/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+268            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+268-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/301c8b838292838cea15100199032d68/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+269            android:exported="false"
+269-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/301c8b838292838cea15100199032d68/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" >
+270-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/301c8b838292838cea15100199032d68/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+271        </service>
+272
+273        <receiver
+273-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/301c8b838292838cea15100199032d68/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+274            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+274-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/301c8b838292838cea15100199032d68/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+275            android:exported="false" />
+275-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dheerndra/.gradle/caches/transforms-3/301c8b838292838cea15100199032d68/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+276
+277        <meta-data
+277-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/dheerndra/.gradle/caches/transforms-3/b061010b9248f3e77e106fde09758ce1/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+278            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+278-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/dheerndra/.gradle/caches/transforms-3/b061010b9248f3e77e106fde09758ce1/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+279            android:value="GlideModule" />
+279-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/dheerndra/.gradle/caches/transforms-3/b061010b9248f3e77e106fde09758ce1/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+280
+281        <receiver
+281-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+282            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+282-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+283            android:enabled="true"
+283-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+284            android:exported="false" >
+284-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+285        </receiver>
+286
+287        <service
+287-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+288            android:name="com.google.android.gms.measurement.AppMeasurementService"
+288-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+289            android:enabled="true"
+289-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+290            android:exported="false" />
+290-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+291        <service
+291-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+292            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+292-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+293            android:enabled="true"
+293-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+294            android:exported="false"
+294-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+295            android:permission="android.permission.BIND_JOB_SERVICE" />
+295-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/dheerndra/.gradle/caches/transforms-3/7611b00c1a0152944bb776e4127df8ce/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+296
+297        <meta-data
+297-->[com.google.android.gms:play-services-basement:18.1.0] /Users/dheerndra/.gradle/caches/transforms-3/317bfcb4c042c5e8dbeae1ad4d87fd0e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+298            android:name="com.google.android.gms.version"
+298-->[com.google.android.gms:play-services-basement:18.1.0] /Users/dheerndra/.gradle/caches/transforms-3/317bfcb4c042c5e8dbeae1ad4d87fd0e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+299            android:value="@integer/google_play_services_version" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+299-->[com.google.android.gms:play-services-basement:18.1.0] /Users/dheerndra/.gradle/caches/transforms-3/317bfcb4c042c5e8dbeae1ad4d87fd0e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+300        <activity
+300-->[com.google.android.play:core-common:2.0.3] /Users/dheerndra/.gradle/caches/transforms-3/3aa90ae21fc1ab679b95b0793bb6c872/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+301            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+301-->[com.google.android.play:core-common:2.0.3] /Users/dheerndra/.gradle/caches/transforms-3/3aa90ae21fc1ab679b95b0793bb6c872/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:15:13-93
+302            android:exported="false"
+302-->[com.google.android.play:core-common:2.0.3] /Users/dheerndra/.gradle/caches/transforms-3/3aa90ae21fc1ab679b95b0793bb6c872/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:16:13-37
+303            android:stateNotNeeded="true"
+303-->[com.google.android.play:core-common:2.0.3] /Users/dheerndra/.gradle/caches/transforms-3/3aa90ae21fc1ab679b95b0793bb6c872/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:17:13-42
+304            android:theme="@style/Theme.PlayCore.Transparent" />
+304-->[com.google.android.play:core-common:2.0.3] /Users/dheerndra/.gradle/caches/transforms-3/3aa90ae21fc1ab679b95b0793bb6c872/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:18:13-62
+305    </application>
+306
+307</manifest>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":react-native-pager-view:unitTest" external.linked.project.path="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/main/res;file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/debug/res;file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/androidTest/res;file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/tmp/kotlin-classes/debugUnitTest" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/dheerndra/.gradle/caches/transforms-3/ed80004c1c75792fa0976e59ff7f1c69/transformed/jetified-react-native-0.66.4-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/5915c4b7087abeb5170bff9bc1fcb811/transformed/jetified-infer-annotation-0.18.0.jar:/Users/dheerndra/.gradle/caches/transforms-3/54df585f6b6bdeabdec68dd6f291c5d6/transformed/jetified-jsr305-3.0.2.jar:/Users/dheerndra/.gradle/caches/transforms-3/86157e29f127873a663cf0a871c940e6/transformed/jetified-kotlin-annotations-jvm-1.3.72.jar:/Users/dheerndra/.gradle/caches/transforms-3/0d672386bf8a13c1be88ae547dc7d195/transformed/jetified-proguard-annotations-1.19.0.jar:/Users/dheerndra/.gradle/caches/transforms-3/3b9b227c94c248927626dd0f71111121/transformed/jetified-javax.inject-1.jar:/Users/dheerndra/.gradle/caches/transforms-3/93b866de52908fc4037b1761bd6ce9f6/transformed/appcompat-1.0.2-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/4e6d0d413659676a5f3172acf9f3b869/transformed/jetified-viewpager2-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/686292e5af59f86de535ca45fe3405de/transformed/vectordrawable-animated-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/0552a057bdd5905473cb8c9f303f6c08/transformed/legacy-support-core-ui-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/e126dd6b6cec89c3750cfc8bca1ccfe9/transformed/swiperefreshlayout-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/11735373899dddfa0be88d6c778c3eee/transformed/fragment-1.1.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/5c50df77cfc7d2a03ce3ff38df52ad25/transformed/recyclerview-1.1.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/fd8a29b01987a6bf78efb7d05cd5e1f3/transformed/legacy-support-core-utils-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/3c9950f62ee7a784292861cba46bc828/transformed/vectordrawable-1.0.1-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/e1dfee7a937e8de54083969317b5e0c4/transformed/viewpager-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/c3b589c7394182adbedf488634045ced/transformed/loader-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/31c56c43e63abaca5404514c6e68cdbb/transformed/jetified-activity-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/2342050d6665b46a5b800c4673add316/transformed/coordinatorlayout-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/0d0b038461c396ac159ce8df944928c7/transformed/drawerlayout-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/6fd8eaaa61cc78c29f9081e7cca38576/transformed/slidingpanelayout-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/23f6022670c7348444ea23c2ba090aa8/transformed/customview-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/3390e2d4cecd8f7e02918709079e6ac9/transformed/asynclayoutinflater-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/a479d5740483a17443cc29685d2bfdb9/transformed/core-1.1.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/cd9901d3020da872191ef26d8a1ccf1a/transformed/versionedparcelable-1.1.0-api.jar:/Users/dheerndra/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/dheerndra/.gradle/caches/transforms-3/77dbe6ee88c110ef370b31def268c3d1/transformed/cursoradapter-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/95d0ae98908087ffa697a0e30f29fdf6/transformed/interpolator-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/07563627e407a375686022a5c638b209/transformed/lifecycle-viewmodel-2.1.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/073fb7abeae02ac4f00431d1ae839a03/transformed/lifecycle-runtime-2.1.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/e559dea751c711297a4ce31c7054b849/transformed/documentfile-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/adeefa3d096ec8a5ab05fc78b0db8593/transformed/localbroadcastmanager-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/9af764628330f134af9cf0c8ec75ba26/transformed/print-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/0aaa1764e301f9bf721c0759db4b820f/transformed/jetified-savedstate-1.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/c54dc288d3890b2ad6f7c6c6f5a37a77/transformed/lifecycle-livedata-2.0.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/0a8c2b694f6a0bd9f2d09ce5e51960e5/transformed/lifecycle-livedata-core-2.0.0-api.jar:/Users/dheerndra/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0/c67e7807d9cd6c329b9d0218b2ec4e505dd340b7/lifecycle-common-2.1.0.jar:/Users/dheerndra/.gradle/caches/transforms-3/7a03fe09e110d12a29351536bba8ae78/transformed/core-runtime-2.0.0-api.jar:/Users/dheerndra/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/dheerndra/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/dheerndra/.gradle/caches/transforms-3/754302c18940c7d0b435c611d99fd830/transformed/jetified-autofill-1.1.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/f13bbdcffc913922aa0e4e68299423cf/transformed/jetified-fresco-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/639999e3740b527d8629ebb3c7b6d157/transformed/jetified-fbcore-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/dea87823dfd0ed23949e46685a51b16c/transformed/jetified-soloader-0.10.1-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/da615f137466f4141729fd977c5bb8aa/transformed/jetified-annotation-0.10.1.jar:/Users/dheerndra/.gradle/caches/transforms-3/454918c023d63f68782a4b5fbb74fc08/transformed/jetified-nativeloader-0.10.1.jar:/Users/dheerndra/.gradle/caches/transforms-3/c7bb800b7ec3be11b53c9378da6ebb97/transformed/jetified-ui-common-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/d4ea8b55372da2e6bf94d66ff4105ada/transformed/jetified-drawee-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/dbcefb5274f4930b6ca351abf5fc8fbf/transformed/jetified-imagepipeline-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/06579b99ba7756ec50b402b9d9cdb9a1/transformed/jetified-imagepipeline-base-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/a4a56c65ee2ed164b6e8b9d68daaf830/transformed/jetified-imagepipeline-native-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/11da4360f0ca3d47bb38cceab3e8bb8f/transformed/jetified-memory-type-ashmem-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/21ce4668c037a98ab2c0688acf930cf1/transformed/jetified-memory-type-native-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/2e83aaf3e4a738cf636e2717c4cc7c28/transformed/jetified-memory-type-java-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/1cbbc278da035ac14d038adbc0dc3361/transformed/jetified-nativeimagefilters-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/8c33bfe0d9107da5b61730e16ea143d8/transformed/jetified-nativeimagetranscoder-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/17af9b198ddd3053bcc65d2b182a7c57/transformed/jetified-imagepipeline-okhttp3-2.5.0-api.jar:/Users/dheerndra/.gradle/caches/transforms-3/ae184093dae4420faa86db7f7dc4e610/transformed/jetified-okhttp-urlconnection-4.9.1.jar:/Users/dheerndra/.gradle/caches/transforms-3/012e75bb230ba0ed8b3f25a257a7bd35/transformed/jetified-okhttp-4.9.1.jar:/Users/dheerndra/.gradle/caches/transforms-3/67c50ae8e48ee8a3958d9ffdbe973677/transformed/jetified-okio-jvm-2.9.0.jar:/Users/dheerndra/.gradle/caches/transforms-3/b32b89a00c8d986cdc89bb833e7d81ee/transformed/jetified-kotlin-stdlib-jdk8-1.4.10.jar:/Users/dheerndra/.gradle/caches/transforms-3/07003a1be32e9ee64e9faf90a2c4fe21/transformed/jetified-kotlin-stdlib-jdk7-1.4.10.jar:/Users/dheerndra/.gradle/caches/transforms-3/5f1199ebec9e5303d2ad78cedcf101e1/transformed/jetified-kotlin-stdlib-1.7.0.jar:/Users/dheerndra/.gradle/caches/transforms-3/9027fbb7a59ea3d99e93100bb3dab37b/transformed/jetified-kotlin-stdlib-common-1.7.0.jar:/Users/dheerndra/.gradle/caches/transforms-3/9d4a90a816761915aee6ff347e154fed/transformed/jetified-annotations-13.0.jar:/Users/dheerndra/.gradle/caches/transforms-3/e50885f1f15909490aed5fadb39b62ca/transformed/jetified-fbjni-java-only-0.2.2.jar:/Users/dheerndra/Library/Android/sdk/platforms/android-33/android.jar:/Users/dheerndra/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="react-native-pager-view_debug" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/tmp/kotlin-classes/debug" />
+              <option value="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/javac/debug/classes" />
+              <option value="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/compile_library_classes_jar/debug/classes.jar" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.7" />
+          <option name="apiVersion" value="1.7" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/generated/ap_generated_sources/debugUnitTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/test" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/testDebug" />
+    <orderEntry type="jdk" jdkName="Android API 33 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="EZYPayroll.react-native-pager-view.main" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.infer.annotation:infer-annotation:0.18.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.yoga:proguard-annotations:1.19.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.soloader:annotation:0.10.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.soloader:nativeloader:0.10.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:4.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:4.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:2.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fbjni:fbjni-java-only:0.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.react:react-native:0.66.4@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat:1.0.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable:1.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.autofill:autofill:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:fresco:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:fbcore:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.soloader:soloader:0.10.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:ui-common:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:drawee:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:imagepipeline:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:imagepipeline-base:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:imagepipeline-native:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:memory-type-ashmem:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:memory-type-native:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:memory-type-java:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:nativeimagefilters:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:nativeimagetranscoder:2.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:2.5.0@aar" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="EZYPayroll.react-native-pager-view.main" />
+</module>

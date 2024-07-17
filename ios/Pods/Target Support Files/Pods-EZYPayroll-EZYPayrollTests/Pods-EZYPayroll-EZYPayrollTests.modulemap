@@ -1,0 +1,6 @@
+module Pods_EZYPayroll_EZYPayrollTests {
+  umbrella header "Pods-EZYPayroll-EZYPayrollTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
